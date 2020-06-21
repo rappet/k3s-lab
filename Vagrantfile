@@ -9,6 +9,6 @@ Vagrant.configure("2") do |config|
   config.vm.network "forwarded_port", guest: 6443, host: 6443
 
   # http/https
-  config.vm.network "forwarded_port", guest: 80, host: 80
-  config.vm.network "forwarded_port", guest: 443, host: 443
+  config.vm.network "forwarded_port", guest: 80, host: 10080
+  config.vm.network "forwarded_port", guest: 443, host: 10443
 end
