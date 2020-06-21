@@ -1,2 +1,5 @@
+# k3s conf
+k3s/k3s.yaml
+
 # Vagrant
 .vagrant/
